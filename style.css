@@ -120,3 +120,28 @@ img{
     border: 5px solid #3882F6;
     border-radius: 10px;
 }
+
+.quote{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+
+}
+
+.quote-text{
+    font-size: 32px;
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
+}
+
+.signature{
+   display: flex;
+   justify-content: right;
+   font-size: 28px;
+   font-weight: 800;
+   color: #1F2937;
+}   
