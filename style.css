@@ -132,7 +132,7 @@ img{
 .quote-text{
     font-size: 32px;
     font-family: "Roboto" ,sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
     width: 700px;
@@ -143,5 +143,40 @@ img{
    justify-content: right;
    font-size: 28px;
    font-weight: 800;
+   font-style: normal;
    color: #1F2937;
 }   
+
+
+.action{
+    padding: 85px 120px;
+}
+
+.call-action{
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    color: #F9FAF8;
+    display: flex;
+    padding: 50px;
+    
+}
+
+.call-action button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.call-action button:active{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    transform: translateY(2px);
+   
+}
